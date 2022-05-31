@@ -12,14 +12,14 @@ figure {
 }
 
 body {
-  width: 1600px;
+  max-width:1600px;
   background-color: #ffffff;
   color: #212121;
   font-family: Roboto;
 }
 
 .container {
-  width: 1200px;
+  max-width:1200px;
   margin: auto;
 }
 
@@ -46,7 +46,7 @@ header ul {
 
 header {
   padding: 24px 0px 25px;
-  border-bottom: thin solid black;
+  border-bottom: thin solid #e5e5e5;
 }
 
 .logo {
@@ -138,7 +138,7 @@ header nav a {
 
 .text-info {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
 }
 
 .text-info h2 {
@@ -322,8 +322,6 @@ a {
   height: 404px;
   background: #ffffff;
   border: 1px solid rgba(238, 238, 238, 1);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
   margin-bottom: 30px;
 }
 
