@@ -152,7 +152,7 @@ header nav a {
 .text-info p {
   color: #757575;
   line-height: 1.716em;
-  width: 290px;
+  max-width: 290px;
   margin-right: 15px;
 }
 
