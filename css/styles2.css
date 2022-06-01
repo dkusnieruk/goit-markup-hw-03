@@ -12,14 +12,14 @@ figure {
 }
 
 body {
-  max-width: 1600px;
+  margin:auto
   background-color: #ffffff;
   color: #212121;
   font-family: Roboto;
 }
 
 .container {
-  max-width: 1200px;
+  padding:0px 100px;
   margin: auto;
 }
 
@@ -136,9 +136,10 @@ header nav a {
   width: 200px;
 }
 
-.text-info {
-  display: flex;
-  justify-content: space-between;
+.text-infoset{
+  display:flex;
+  justify-content:space-between;
+
 }
 
 .text-info h2 {
@@ -157,7 +158,7 @@ header nav a {
 }
 
 .section {
-  padding: 94px 0px;
+  padding: 94px 0;
 }
 
 .occupation-index ul {
@@ -294,7 +295,7 @@ footer ul {
   display: flex;
   flex-wrap: wrap;
 
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 a {
