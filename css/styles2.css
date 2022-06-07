@@ -165,7 +165,9 @@ header nav a {
 }
 
 .occupation-index{
-  margin-bottom: 94px;
+  padding-bottom:94px;
+  /*
+  margin-bottom: 94px;*/
 }
 
 .occupation-index ul {
