@@ -164,6 +164,10 @@ header nav a {
   padding: 94px 0;
 }
 
+.occupation-index{
+  padding-bottom: 94px;
+}
+
 .occupation-index ul {
   display: flex;
   flex-direction: row;
